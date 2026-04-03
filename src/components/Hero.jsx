@@ -93,24 +93,15 @@ export default function Hero() {
 
         <div className="relative max-w-3xl mx-auto">
           <div className="glass-card-lg p-3 relative z-10">
-            <div className="bg-gradient-to-br from-brand-red/20 via-brand-green/10 to-transparent rounded-2xl aspect-video flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center z-20">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-brand-green/30 rounded-full blur-xl animate-pulse" />
-                  <div className="relative w-24 h-24 md:w-28 md:h-28 bg-brand-green rounded-full flex items-center justify-center shadow-[0_0_60px_rgba(173,255,47,0.6)] cursor-pointer hover:scale-110 transition-transform duration-300">
-                    <svg className="w-10 h-10 md:w-12 md:h-12 text-bg-primary ml-1.5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3 bg-black/40 backdrop-blur-sm rounded-xl px-4 py-3">
-                <div className="w-10 h-10 bg-brand-red/80 rounded-lg flex-shrink-0" />
-                <div>
-                  <div className="text-sm font-semibold text-white">FrameHub — Aula 01</div>
-                  <div className="text-xs text-text-secondary">Fundamentos do CapCut</div>
-                </div>
-              </div>
+            <div className="rounded-2xl aspect-video overflow-hidden relative">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/ZWnXSm4tlUY?autoplay=1&mute=1&rel=0&modestbranding=1&loop=1&playlist=ZWnXSm4tlUY&controls=1"
+                title="FrameHub"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </div>
 

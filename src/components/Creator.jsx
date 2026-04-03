@@ -67,16 +67,12 @@ export default function Creator() {
           >
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,26,26,0.2)_0%,transparent_70%)] pointer-events-none" />
             <div className="glass-card-lg p-3 relative">
-              <div className="bg-gradient-to-br from-brand-red/15 via-brand-green/10 to-transparent rounded-2xl aspect-[3/4] flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 bg-white/[0.06] rounded-full mx-auto mb-6 flex items-center justify-center border border-white/[0.1]">
-                    <svg className="w-16 h-16 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                  </div>
-                  <div className="font-display text-xl text-white italic">Criador FrameHub</div>
-                  <div className="text-text-secondary text-sm mt-1">Editor & Educador</div>
-                </div>
+              <div className="rounded-2xl aspect-[3/4] overflow-hidden">
+                <img
+                  src="https://i.ibb.co/sM6DXHx/photo-2026-01-08-10-07-11-rjg84n61hpyh1mu1ikga8ctewfst3i7uix8073g3d4.webp"
+                  alt="Criador FrameHub"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>
